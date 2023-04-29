@@ -28,7 +28,7 @@ export const Signin = () => {
 
   let form;
   if (signinData?.id === 0) {
-    form = <LoginForm signinData={setSigninData} />;
+    form = <LoginForm signinData={setSigninData} success={success}/>;
   } else {
     form = <AuthForm signinData={signinData} success={success}/>;
   }
