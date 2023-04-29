@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Nav } from './components/nav';
 import { Home } from './components/home';
 import { Signup } from './components/signup';
-import { Signin } from './components/signin';
+import { Signin } from './components/signin/signin';
 import { Forgot } from './components/forgot';
 import { Reset } from './components/reset';
 
